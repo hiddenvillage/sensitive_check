@@ -1,0 +1,33 @@
+zh_CN:
+  contains_sensitive_exp: "抱歉，您试图发表敏感言论，请修改。"
+  contains_sensitive_word: "抱歉，您不能使用'%{word}'进行发帖。"
+  contains_sensitive_words: "抱歉，您的言论包含敏感词：%{words}。请修改。"
+  sensitive_check_failed: "抱歉，内容审核失败。请稍后重试。"
+  reviewables:
+    reasons:
+      sensitive_check_review: "敏感词检查人工复核。"
+
+  site_settings:
+    sensitive_enabled: "启用敏感词检查。"
+    sensitive_text_check_url: "文本内容审核url。"
+    sensitive_text_check_method: "文本内容审核method。"
+    sensitive_check_project_id: "内容审核项目ID。"
+    sensitive_json_suggestion_path: "内容审核结果建议路径。"
+    sensitive_json_hits_path: "内容审核结果命中结果路径。"
+
+    sensitive_block_exp: "内容审核结果建议阻拦所用词语。"
+    sensitive_review_exp: "内容审核结果建议复核所用词语。"
+    sensitive_pass_exp: "内容审核结果建议通过所用词语。"
+    sensitive_seg_path_in_hits: "内容审核命中词单独提取路径。"
+
+    sensitive_auth_url: "内容审核Token获取url。"
+    # sensitive_auth_domainname: "Token获取域账号名。"
+    # sensitive_auth_username: "Token获取所使用的用户名。"
+    # sensitive_auth_password: "Token获取所使用的密码。"
+    sensitive_project_name: "内容审核项目名称。"
+    sensitive_auth_token_loc: "Token获取结果在headers还是body中。"
+    
+    sensitive_json_token_path: "Token获取结果路径。"
+    sensitive_expire_time: "Token过期时间/小时。"
+
+    sensitive_debug_info: "在日志中输出详细的调试信息。"

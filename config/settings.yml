@@ -1,4 +1,40 @@
 plugins:
-  plugin_name_enabled:
+  sensitive_enabled:
     default: true
     client: true
+  sensitive_text_check_url: ""
+  sensitive_text_check_method:
+    default: "POST"
+    type: enum
+    choices:
+      - GET
+      - POST
+  sensitive_check_project_id: ""
+  sensitive_json_suggestion_path: ""
+  sensitive_json_hits_path: ""
+  
+  sensitive_block_exp: 
+    default: "block"
+  sensitive_review_exp:
+    default: "review"
+  sensitive_pass_exp:
+    default: "pass"
+  sensitive_seg_path_in_hits:
+    default: "segment"
+
+  sensitive_auth_url: ""
+  sensitive_auth_domainname: ""
+  sensitive_auth_username: ""
+  sensitive_auth_password: ""
+  sensitive_project_name: ""
+  sensitive_auth_token_loc:
+    default: "headers"
+    type: enum
+    choices:
+      - headers
+      - body
+  sensitive_json_token_path: ""
+  sensitive_expire_time: ""
+
+  sensitive_debug_info:
+    default: false

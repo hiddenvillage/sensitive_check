@@ -1,1 +1,33 @@
 en:
+  contains_sensitive_exp: "Sorry, you can't post sensitive words."
+  contains_sensitive_word: "Sorry, you can't post the word '%{word}'."
+  contains_sensitive_words: "Sorry, your expression contains sensitive words: %{words}. Please check and try again."
+  sensitive_check_failed: "Sorry, sensitive check failed. Please try again later."
+  reviewables:
+    reasons:
+      sensitive_check_review: "Sensitive words manual review."
+
+  site_settings:
+    sensitive_enabled: "enable sensitive check."
+    sensitive_text_check_url: "text check url."
+    sensitive_text_check_method: "text check method."
+    sensitive_check_project_id: "project id if exists."
+    sensitive_json_suggestion_path: "suggestion path in result."
+    sensitive_json_hits_path: "hits path in result."
+
+    sensitive_block_exp: "exoression of 'block' suggestion."
+    sensitive_review_exp: "exoression of 'review' suggestion."
+    sensitive_pass_exp: "exoression of 'pass' suggestion."
+    sensitive_seg_path_in_hits: "segment path in one hits."
+
+    sensitive_auth_url: "token getting url."
+    # sensitive_auth_domainname: "domainname for getting token."
+    # sensitive_auth_username: "username for getting token."
+    # sensitive_auth_password: "password for getting token."
+    sensitive_project_name: "project name when using moderation."
+    sensitive_auth_token_loc: "token in headers or body."
+    
+    sensitive_json_token_path: "token path in result."
+    sensitive_expire_time: "token expire time/ hour."
+
+    sensitive_debug_info: "explicit debug info in logs."
